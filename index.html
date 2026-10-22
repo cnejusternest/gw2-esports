@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="An independent worldwide competitive community for Garden Warfare 2." />
+  <title>GW2 Community Circuit — Competitive Garden Warfare 2</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./data.js" defer></script>
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell nav-row">
+      <a class="brand" href="#home" aria-label="GW2 Community Circuit home"><span class="brand-symbol" aria-hidden="true">✳</span><span>GW2 <em>COMMUNITY</em><strong>CIRCUIT</strong></span></a>
+      <nav aria-label="Main navigation"><a href="#rankings">Rankings</a><a href="#events">Tournaments</a><a href="#about">About</a><a href="#rules">Rules</a></nav>
+      <a class="nav-action" href="#events">Explore events <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> COMMUNITY-RUN COMPETITIVE CIRCUIT <span class="sep">/</span> WORLDWIDE</div>
+        <h1 id="hero-title">A NEW ARENA<br />FOR <span>GARDEN</span><br />WARFARE 2.</h1>
+        <p>A global competitive community built around fair rankings, verified results and organized tournaments — with separate PC, PlayStation and Xbox divisions.</p>
+        <div class="hero-actions"><a class="button primary" href="#rankings">View rankings <span aria-hidden="true">↗</span></a><a class="button ghost" href="#about">How it works</a></div>
+        <div class="hero-meta"><span>◆ INDEPENDENT</span><span>◆ WORLDWIDE</span><span>◆ COMMUNITY FIRST</span></div>
+      </div>
+      <div class="visual" aria-hidden="true"><div class="visual-ring ring-one"></div><div class="visual-ring ring-two"></div><div class="visual-ring ring-three"></div><div class="visual-cross">×</div><div class="visual-panel top"><span>RANKED DIVISIONS</span><b>03</b></div><div class="visual-panel bottom"><span>YOUR RANK.<br />YOUR LEGACY.</span><b>★</b></div><div class="visual-caption">SEASON 01 <span>//</span> COMING SOON</div></div>
+    </section>
+
+    <section class="stat-strip"><div class="shell stat-grid"><div><span class="stat-num">03</span><span class="stat-label">PLATFORM DIVISIONS</span></div><div><span class="stat-num">01</span><span class="stat-label">GLOBAL COMMUNITY</span></div><div><span class="stat-num">00</span><span class="stat-label">VERIFIED MATCHES</span></div><div><span class="stat-num">S01</span><span class="stat-label">PRESEASON PLANNING</span></div></div></section>
+
+    <section class="section shell" id="rankings" aria-labelledby="rankings-title"><div class="section-title"><div><div class="kicker">01 / THE LADDER</div><h2 id="rankings-title">GLOBAL <span>RANKINGS</span></h2><p>Each platform has a separate competitive rating ladder. Rankings appear after results are verified.</p></div><span class="section-tag">SEASON 01</span></div>
+      <div class="panel leaderboard"><div class="panel-toolbar"><div class="platform-tabs" role="tablist" aria-label="Choose platform"><button role="tab" id="tab-pc" aria-selected="true" aria-controls="standings-panel" data-platform="pc">PC</button><button role="tab" id="tab-playstation" aria-selected="false" aria-controls="standings-panel" data-platform="playstation">PLAYSTATION</button><button role="tab" id="tab-xbox" aria-selected="false" aria-controls="standings-panel" data-platform="xbox">XBOX</button></div><span class="status"><span class="status-dot"></span> PRESEASON</span></div>
+        <div role="tabpanel" id="standings-panel" aria-labelledby="tab-pc"><table><thead><tr><th>RANK</th><th>PLAYER</th><th>REGION</th><th class="num">WINS</th><th class="num">LOSSES</th><th class="num">CR</th></tr></thead><tbody id="ranking-rows"></tbody></table><div id="empty-state" class="empty-state" hidden><span class="empty-icon">✦</span><strong>The leaderboard is waiting for its first challengers.</strong><p>Verified results will appear here when ranked play launches.</p></div></div>
+        <div class="panel-footnote">Ratings are community-organized, not official EA or in-game ranks.</div>
+      </div>
+    </section>
+
+    <section class="section shell" id="events" aria-labelledby="events-title"><div class="section-title"><div><div class="kicker">02 / COMPETE</div><h2 id="events-title">UPCOMING <span>EVENTS</span></h2><p>Open cups, ranked qualifiers and championships. Events will appear here when the first schedule is announced.</p></div><span class="section-tag">EVENT CALENDAR</span></div>
+      <div class="event-grid"><article class="event-card"><div class="event-header"><span class="event-type">OPEN CUP</span><span class="event-status">PLANNED</span></div><div class="event-art"><span>01<span class="slash">/</span></span><span class="event-art-mark">✳</span></div><h3>Preseason Open Cup</h3><p>First community competition. Rules, registration and dates will be published after platform testing.</p><div class="event-footer"><span>PC · PLAYSTATION · XBOX</span><span>DATE TBA</span></div></article><article class="event-card secondary-event"><div class="event-header"><span class="event-type">CHAMPIONSHIP</span><span class="event-status">PLANNED</span></div><div class="event-art"><span>02<span class="slash">/</span></span><span class="event-art-mark">★</span></div><h3>Season 01 Finals</h3><p>Season-ending competition for qualified players on each platform, subject to sufficient participation.</p><div class="event-footer"><span>TOP QUALIFIERS</span><span>DATE TBA</span></div></article></div>
+    </section>
+
+    <section class="section shell two-column" id="about"><div><div class="kicker">03 / THE MISSION</div><h2>BUILT FOR THE <span>COMMUNITY.</span></h2><p class="big-copy">A clear competitive home for players who want more than casual matches.</p></div><div class="about-grid"><div><b>01</b><h3>Compete</h3><p>Play scheduled matches against opponents on your own platform.</p></div><div><b>02</b><h3>Climb</h3><p>Earn competitive rating through verified wins and losses.</p></div><div><b>03</b><h3>Qualify</h3><p>Reach high placements in a seasonal competitive ladder.</p></div><div><b>04</b><h3>Win</h3><p>Enter open tournaments and platform-specific championships.</p></div></div></section>
+
+    <section class="section shell rules-box" id="rules"><div><div class="kicker">04 / FAIR PLAY</div><h2>COMPETITIVE <span>INTEGRITY.</span></h2><p>Rankings depend on verified match results. No cheating, exploits, result manipulation or harassment. Full match rules will be published before competitive play begins.</p></div><div class="rules-status"><span>RULEBOOK</span><strong>IN DEVELOPMENT</strong><small>VERSION 0.1 — CONCEPT</small></div></section>
+  </main>
+  <footer><div class="shell footer-content"><div class="footer-brand">✳ GW2 <span>COMMUNITY CIRCUIT</span></div><p>Independent fan-run competition. Not affiliated with or sponsored by Electronic Arts Inc. or its licensors. Game names are used for identification only.</p><small>© <span id="year"></span> GW2 Community Circuit</small></div></footer>
+</body>
+</html>
+
